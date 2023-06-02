@@ -8,7 +8,7 @@ const assets = [
   "css/menu.css",
   "/imagenes/arroz-frito.jpg",
   "/imagenes/Arroz-guando.jpg",
-  "/imagenes/carimañola.jpg",
+  "/imagenes/carimanola.jpg",
   "/imagenes/carne-guisada.jpg",
   "/imagenes/ceviche.jpg",
   "/imagenes/chicheme.jpg",
@@ -17,7 +17,7 @@ const assets = [
   "/imagenes/ropa-vieja.jpg",
   "/imagenes/sancocho-panameno.jpg",
   "/imagenes/tamales-panamenos.jpg"
-]
+];
 
 self.addEventListener("install", installEvent => {
   installEvent.waitUntil(
