@@ -10,7 +10,88 @@ body{
     background-color: white;
 }
 
-.Menu-container{
+.container{
     max-width: 1200px;
     margin: 0 auto;
+}
+
+.header{
+    background-image: url(/images/banner.jpg);
+    background-position: center bottom;
+    background-size: cover;
+    display: flex;
+    align-items: center;
+    min-height: 70vh;
+    background-color: rgba(127, 255, 212, 0.377);
+}
+
+.logo{
+    color: white;
+    font-size: 25px;
+    font-weight: 800;
+}
+
+.menu-container{
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    background-color: black;
+}
+
+.menu-container .nav-bar ul li {
+    position: relative;
+    float: left;
+}
+
+.menu-container .nav-bar ul li a{
+    font-size: 18px;
+    padding: 20px;
+    color: white;
+}
+
+.menu-container .nav-bar ul li a:hover{
+    color: yellow;
+}
+
+#menu{
+    display: none;
+}
+
+.menu-icono{
+    width: 25px;
+}
+
+.menu-container label{
+    cursor: pointer;
+    display: none;
+}
+
+.header-containerbn{
+    width: 100%;
+}
+
+.header-txt{
+    width: 50%;
+}
+
+.oferta{
+    display: inline-block;
+    font-size: 14px;
+    padding: 5px 13px;
+    color: white;
+    border-radius: 21px;
+    text-transform: uppercase;
+    background-color: yellow;
+    margin-bottom: 35px;
+}
+
+.header-txt h1{
+    font-size: 30px;
+    line-height: 60px;
+    color: white;
+    margin-bottom: 35px;
 }
