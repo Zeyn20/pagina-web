@@ -6,22 +6,26 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <!--stylo de menu-->
     <link rel="stylesheet" href="css/menu.css">
+    <!--stylo de menu-->
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="manifest" href="manifest.json">
     <title>RanTan' Food</title>
+    <link rel="shortcut icon" href="assets/icon-128x128.png">
 
 </head>
 <body>
     <!--Este es el encabezado-->
-    <header class="header">
+    <div class="header">
         
         <!--Este es el menu-->
         <div class="menu-container">
 
             <a href="#" class="logo">logo</a>
 
-            <input type="checkbox"/>
+            <input type="checkbox" id="menu">
             <label for="menu">
                 <!--Aqui va el img logo-->
-                <img src="images/menu.png" class="menu-icono" alt="x"> 
+                <img src="imagenes/menu.png" class="menu-icono" alt="x"> 
             </label>
 
             <nav class="nav-bar">
@@ -33,36 +37,76 @@
             </nav>
 
         </div>
-        <br>
+
         <div class="header-containerbn">
             <div class="header-txt">
-                <span class="oferta">Oferton!!!</span>
-                <h1>Tamales 100% Panameños</h1>
+                <h1>Tamales</h1>
+                <h2>100% Panameños</h2>
                 <a href="#" class="btn-1">Informacion</a>
             </div>
         </div>
         
-    </header>
+    </div>
 
     <!--Este es el contenido-->
+    <section class="content-titulo" >
+        <h3>Productos</h3>
+    </section>
+
     <section class="content-container">
-        <div class="img2">
-            <!--<img src="images/ofert-1.jpg" alt="xd">-->
+
+        <div class="contenedor-producto">
+
+            <div class="img2">
+                <img src="imagenes/CoPanameñas/arroz-frito.jpg" id="producto1">
+            </div>
+    
+            <div class="info">
+
+                <h3>Arroz Frito</h3>
+                <p>
+                    ¡El arroz frito que te hará salivar!
+                    
+                    Descubre nuestro irresistible arroz frito gourmet: sabores exquisitos, ingredientes frescos y una explosión de texturas. ¡Una experiencia culinaria que no puedes resistir!
+                    
+                    ¡Prueba nuestro arroz frito hoy mismo y déjate seducir por su sabor único!</p>
+                    <a href="productos.html" class="btnpedidos">Pedir</a>
+            </div>
+
         </div>
 
-        <div class="info">
-            <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                Dolores quidem rem magnam officiis omnis quaerat. 
-                Modi iusto mollitia cupiditate accusamus at eos unde iure consequatur nihil. 
-                Dolorem quae nisi reiciendis.</p>
+        <div class="contenedor-producto">
+
+            <div class="img2">
+                <img src="imagenes/CoPanameñas/Arroz-guandu.jpg" id="producto2">
+            </div>
+    
+            <div class="info">
+                <h3>Arroz con Guandu</h3>
+                <p>Descubre el sabor caribeño en nuestro arroz con guandú: cremoso, aromático y lleno de sabores tropicales. 
+                    ¡Una delicia irresistible que te transportará a las playas paradisíacas del Caribe en cada bocado!</p>
+                    <a href="productos.html" class="btnpedidos">Pedir</a>
+            </div>
+
         </div>
+
     </section>
     
     <!--Este es el pie de pagina-->
-    <footer>
-        <div class="container-footer">
+    <footer class="container-footer">
+        <div class="container-textf">
           <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
         </div>
     </footer>
+    <script>
+        if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+            })
+        }
+    </script>
 </body>
 </html>
