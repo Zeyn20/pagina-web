@@ -1,22 +1,16 @@
-const staticRantanFood = "Rantan-Food-v1";
-const assets = [
+var staticRantanFood = "Rantan-Food-v1";
+var assets = [
   "/",
   "/index.html",
   "/productos.html",
   "/servicios.html", 
   "/css/style.css",
-  "css/menu.css",
-  "/imagenes/arroz-frito.jpg",
-  "/imagenes/Arroz-guando.jpg",
-  "/imagenes/carimanola.jpg",
-  "/imagenes/carne-guisada.jpg",
-  "/imagenes/ceviche.jpg",
-  "/imagenes/chicheme.jpg",
-  "/imagenes/ojaldre.jpg",
-  "/imagenes/patacones.jpg",
-  "/imagenes/ropa-vieja.jpg",
-  "/imagenes/sancocho-panameno.jpg",
-  "/imagenes/tamales-panamenos.jpg"
+  "/css/menu.css",
+  "/imagenes/menu.png",
+  "/imagenes/banner.jpg",
+  "/imagenes/CoPanameñas/arroz-frito.jpg",
+  "/imagenes/CoPanameñas/Arroz-guandu.jpg",
+  "/imagenes/pr1.png"
 ];
 
 self.addEventListener("install", installEvent => {
