@@ -33,5 +33,22 @@
         "src": "assets/icon-512x512.png",
         "type": "image/png", "sizes": "512x512"
       }
+    ],
+
+    "shortcuts": [
+      {
+        "name": "Productos",
+        "short_name": "productos",
+        "description": "Entra a nuestros productos",
+        "url": "/productos.html",
+        "icons": [{ "src": "/assets/icon-192x192.png", "sizes": "192x192" }]
+      },
+      {
+        "name": "Servicios",
+        "short_name": "Servicios",
+        "description": "Servicios",
+        "url": "/servicios.html",
+        "icons": [{ "src": "/assets/icon-192x192.png", "sizes": "192x192" }]
+      }
     ]
 }

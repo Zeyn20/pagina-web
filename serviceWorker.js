@@ -1,5 +1,5 @@
-var staticRantanFood = "Rantan-Food-v1";
-var assets = [
+const staticRantanFood = "Rantan-Food-v1";
+const assets = [
   "/",
   "/index.html",
   "/productos.html",
@@ -10,7 +10,8 @@ var assets = [
   "/imagenes/banner.jpg",
   "/imagenes/CoPanameñas/arroz-frito.jpg",
   "/imagenes/CoPanameñas/Arroz-guandu.jpg",
-  "/imagenes/pr1.png"
+  "/imagenes/pr1.png",
+  "/imagenes/icons/shopping-cart.svg"
 ];
 
 self.addEventListener("install", installEvent => {
