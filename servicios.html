@@ -4,66 +4,62 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styleS.css">
         <!--stylo de menu-->
         <link rel="stylesheet" href="css/menu.css">
+
     <title>RanTan' Food</title>
 </head>
 <body>
-    <!--Este es el encabezado-->
-    <header class="header">
-        
-        <!--Este es el menu-->
-        <div class="menu-container">
-
-            <a href="#" class="logo">logo</a>
-
-            <input type="checkbox"/>
-            <label for="menu">
-                <!--Aqui va el img logo-->
-                <img src="images/menu.png" class="menu-icono" alt="x"> 
-            </label>
-
+    <!--Este es el menu-->
+     <!--Este es el encabezado-->
+     <header class="header">
+        <section class="menu">
             <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
+                <ul class="nav-izquierda">
+                    <li class="item"><a href="#" class="nav-izq">LOGO</a></li>
+                </ul>
+                <ul class="nav-derecha">
+                    <li class="item2"><a href="servicios.html" class="nav-izq">Servicios</a></li>
+                    <li class="item2"><a href="productos.html" class="nav-izq">Productos</a></li>
+                    <li class="item2"><a href="index.html" class="nav-izq">Home</a></li>
                 </ul>
             </nav>
-
-        </div>
-        <br>
-        <div class="header-containerbn">
-            <div class="header-txt">
-                <span class="oferta">Oferton!!!</span>
-                <h1>Tamales 100% Panameños</h1>
-                <a href="#" class="btn-1">Informacion</a>
-            </div>
-        </div>
-        
+        </section>
     </header>
-
-        <!--Este es el contenido-->
-        <section class="content-container">
-            <div class="img2">
-                <img src="images/ofert-1.jpg" alt="xd">
+    <!--FIN DE EL encabezado-->
+    <div class="banner">
+        <div class="contenedor-info">
+            <div class="box">
+                <div><img src="imagenes/icons/shopping-cart.svg" alt=""></div>
+                <div><p>Compras en linea</p></div>
             </div>
     
-            <div class="info">
-                <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. 
-                    Dolores quidem rem magnam officiis omnis quaerat. 
-                    Modi iusto mollitia cupiditate accusamus at eos unde iure consequatur nihil. 
-                    Dolorem quae nisi reiciendis.</p>
+            <div class="box">
+                <img src="imagenes/icons/shopping-cart.svg" alt="">
+                <div><p>Consultas</p></div>
             </div>
-        </section>
+
+            <div class="box2">
+                <img src="imagenes/icons/shopping-cart.svg" alt="">
+                <div><p>Entregas a domicilio</p></div>
+            </div>
+        </div>
+    </div>
+
+    <section class="content-titulo" >
+        <h3>Nuestros Servicios</h3>
+    </section>
+    <div style="height: 200px; width: 100%; background-color: white;">
+
+    </div>
         
-        <!--Este es el pie de pagina-->
-        <footer>
-            <div class="container-footer">
-              <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
-            </div>
-        </footer>
+    <!--Este es el pie de pagina-->
+    <footer class="container-footer">
+        <div class="container-textf">
+          <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
+        </div>
+    </footer>
 
 </body>
 </html>

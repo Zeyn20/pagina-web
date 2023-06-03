@@ -1,0 +1,72 @@
+
+/*banner */
+.banner{
+    display: flex;
+    background-color: rgb(55, 4, 102);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+/*AQUI TERMINA EL BANNER IMG*/
+
+
+/*AQUI EMPIEZA EL TEXTO DEL BANNER*/
+.contenedor-info{
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    margin: 5px;
+    height: 220px;
+    width: 100%;
+    margin: 10px;
+}
+.box{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+    border-right: 1px solid white;
+}
+
+img{
+    height: 150px;
+    width: 150px;
+}
+.box div p{
+    color: white;
+}
+.box2{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+    margin: 5px;
+    height: 200px;
+    width: 200px;
+    margin: 10px;
+}
+
+.box2 div p{
+    color: white;
+}
+/*AQUI TERMINA EL TEXTO DEL BANNER*/
+.content-titulo{
+    width: 100%;
+    text-align:center;
+    background-color: rgb(255, 255, 255);
+    display: block;
+    padding: 10px;
+    border-top: 2px solid rgb(0, 255, 255);
+}
+.content-titulo h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}

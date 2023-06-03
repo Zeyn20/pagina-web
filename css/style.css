@@ -1,5 +1,65 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
 
+/*banner */
+.banner{
+    background-image: url(/imagenes/banner.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: center;
+    height: 250px;
+    width: 100%;
+}
+/*AQUI TERMINA EL BANNER IMG*/
+
+
+/*AQUI EMPIEZA EL TEXTO DEL BANNER*/
+.header-containerbn{
+    width: 100%;
+    padding: 50px;
+    display: flex;
+    justify-content: center;
+}
+
+.header-txt{
+    justify-content: center;
+    width: 100%;
+    align-items: center;
+    text-align: center;
+}
+
+.header-txt h1{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:40px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.header-txt h2{
+    text-transform: uppercase;
+    text-align: center;
+    font-size:30px;
+    line-height: 50px;
+    color: white;
+    margin-bottom: 0px;
+    font-family: 'Poppins', sans-serif;
+}
+
+.btn-1{
+    display: inline-block;
+    padding: 13px 35px;
+    background-color: #fcef44;
+    color: white;
+    font-size: 15px;
+    text-transform: uppercase;
+    border-radius: 25px;
+}
+
+/*AQUI TERMINA EL TEXTO DEL BANNER*/
+
+/**/
 .content-titulo{
     width: 100%;
     text-align:center;
@@ -10,7 +70,7 @@
 }
 .content-titulo h3{
     font-family: 'Poppins', sans-serif;
-    font-size: 35px;
+    font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
 }
@@ -29,8 +89,8 @@
     display: block;
     justify-content: center;
     align-items: center;
-    height: max-content;
-    width: 300px;
+    height: 250px;
+    width: 200px;
     margin: 10px;
     padding: 1px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
@@ -49,8 +109,8 @@
     border-radius: 25px;
 }
 .img2 img{
-    height: 250px;
-    width: 250px;
+    height: 120px;
+    width: 120px;
     border-radius: 25px;
     margin-top: 10px;
 }
@@ -72,10 +132,10 @@
     padding-bottom: 5px;
 }
 .info a{
-    margin: 25px;
+    margin: 2px;
     display: inline-block;
     padding: 13px 35px;
-    background-color: #fcef44;
+    background-color: #df0d0d;
     color: white;
     font-size: 15px;
     text-transform: uppercase;

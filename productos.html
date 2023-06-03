@@ -4,7 +4,7 @@
     <meta charset="UTF-8">
     <meta http-equiv="X-UA-Compatible" content="IE=edge">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="style.css">
+    <link rel="stylesheet" href="css/styleP.css">
         <!--stylo de menu-->
         <link rel="stylesheet" href="css/menu.css">
     <title>RanTan' Food</title>
@@ -13,70 +13,66 @@
     <!--Este es el menu-->
      <!--Este es el encabezado-->
      <header class="header">
-        
-        <!--Este es el menu-->
-        <div class="menu-container">
-
-            <a href="#" class="logo">logo</a>
-
-            <input type="checkbox"/>
-            <label for="menu">
-                <!--Aqui va el img logo-->
-                <img src="../imagenes/menu.png" class="menu-icono" alt="x"> 
-            </label>
-
+        <section class="menu">
             <nav class="nav-bar">
-                <ul>
-                    <li><a href="index.html">Inicio</a></li>
-                    <li><a href="productos.html">Productos</a></li>
-                    <li><a href="servicios.html">Servicios</a></li>
+                <ul class="nav-izquierda">
+                    <li class="item"><a href="#" class="nav-izq">LOGO</a></li>
+                </ul>
+                <ul class="nav-derecha">
+                    <li class="item2"><a href="servicios.html" class="nav-izq">Servicios</a></li>
+                    <li class="item2"><a href="productos.html" class="nav-izq">Productos</a></li>
+                    <li class="item2"><a href="index.html" class="nav-izq">Home</a></li>
                 </ul>
             </nav>
-
-        </div>
-        <br>
-        <div class="header-containerbn">
-            <div class="header-txt">
-                <span class="oferta">Oferton!!!</span>
-                <h1>Tamales 100% Panameños</h1>
-                <a href="#" class="btn-1">Informacion</a>
-            </div>
-        </div>
-        
+        </section>
     </header>
-    
+    <!--FIN DE EL encabezado-->
+    <div class="product-conteiner">
 
-    <main class="Product conteiner" >
-        <span class="oferta">oferta</span>
-
-        <p>
-            Las mejores ofertas de comida, 101% panameño como el tremendo pepino que te comiste ayer o como el jugoso chicheme que te encanta tomar, no sea timido
-            a que le damos rico.
-        </p>
-        
         <div class="product-content">
 
-            <div class=" Product-1">
-                <img src="imagenes/pr1.png" alt="pr1">
-                <h3>Hamburguesa</h3>
-                <span>$10.99</span>
-                <p>
-                    ¿Estás cansado de ver cómo la gente se babea ante el cartel de tu hamburguesa? ¡No te preocupes más! Nuestra hamburguesa es tan deliciosa y jugosa que es imposible resistirse, pero eso no significa que debas tener un cartel lleno de babas. Con una combinación perfecta de ingredientes frescos y sabrosos, nuestras hamburguesas son una obra de arte culinaria que despierta el apetito sin necesidad de ensuciar tu anuncio. La calidad de nuestros productos y la cuidadosa presentación hacen que la gente quiera probar nuestras hamburguesas, pero sin ensuciar tu cartel. Así que no te preocupes, con nosotros tendrás un anuncio que se verá tan apetitoso como nuestras deliciosas hamburguesas, sin una sola gota de baba en vista. 
-                </p>
+            <div class="box">
+                <img src="imagenes/CoPanameñas/Arroz-guandu.jpg" id="producto2">
+            </div>
+    
+            <div class="box1">
+                <div class="box2">
+                    <h3>Arroz con Guandu</h3>
+                    <p>descripcion epica</p>
+                    <a href="productos.html" class="btnpedidos">Pedir</a>
+                </div>
             </div>
             
         </div>
 
+    </div>
 
+    <div class="product-conteiner">
 
-    </main>
+        <div class="product-content">
+
+            <div class="box">
+                <img src="imagenes/CoPanameñas/Arroz-guandu.jpg" id="producto2">
+            </div>
+    
+            <div class="box1">
+                <div class="box2">
+                    <h3>Arroz con Guandu</h3>
+                    <p>descripcion epica</p>
+                    <a href="productos.html" class="btnpedidos">Pedir</a>
+                </div>
+            </div>
+            
+        </div>
+
+    </div>
 
     <!--Este es el pie de pagina-->
-    <footer>
-        <div class="container-footer">
-            <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
+    <footer class="container-footer">
+        <div class="container-textf">
+          <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
         </div>
-    </footer>        
+    </footer>      
 
 </body>
 </html>
