@@ -7,6 +7,10 @@
     text-decoration: none;
     list-style: none;
 }
+
+body{
+    background-color: black;
+}
 .menu{
     display: flex;
     border-bottom: 1px solid white;
@@ -21,7 +25,7 @@ nav{
     /*
     position: fixed;
     */
-    background-color: rgb(0, 0, 0);
+    background-color: #ee4a00;
 }
 /*navegacion izquierda*/
 .nav-izquierda{
@@ -41,7 +45,9 @@ nav{
 /*navegacion derecha*/
 .nav-derecha{
     padding-right: 30px;
-    float: right;
+    float: right;    
+    display: flex;
+    justify-content: center;
 }
 .item2{
     list-style:none;
@@ -54,11 +60,15 @@ nav{
     text-decoration: none;
     color: white;
 }
+.item2 img{
+    width: 15px;
+    height: 15px;
+}
 
 /*FOOTER*/
 .container-footer{
-    background-color:black;
-    height: 100px;
+    background-color:#ee4a00;
+    height: 100%;
     width: 100%;
 }
 .container-textf{
@@ -67,4 +77,10 @@ nav{
 }
 .container-textf p{
     color: white;
+}
+
+
+/*RESPONSIVE BARRA DE NAVEGACION*/
+@media {
+    
 }

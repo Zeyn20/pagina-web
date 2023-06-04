@@ -1,58 +1,82 @@
 
 /**/
-.product-conteiner{
-    display: flex;
-    height: 250px;
+
+
+/*contenido container titulo + productos*/
+.contenido{
+    border-top: 2px solid rgb(187, 255, 0);
+    background: linear-gradient(to top, #ee4a00, rgb(255, 255, 255));
+}
+.content-titulo{
     width: 100%;
+    text-align:center;
+    display: block;
+    padding: 10px;
+}
+.content-titulo h3{
+    font-family: 'Poppins', sans-serif;
+    font-size: 20px;
+    letter-spacing: 5px;
+    text-transform: uppercase;
+}
+
+
+/*CONTENOR DE CONTENIDO*/
+.content-container{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    flex-wrap: wrap;
+    justify-content: center;
+    align-items: center;
+}
+.contenedor-producto {
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 250px;
+    width: 200px;
     margin: 10px;
     padding: 1px;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
-    background-color: rgba(0, 0, 0, 0.096);
-}
-
-.product-content{
-    display: flex;
-    justify-content: center;
-    margin: 5px;
-    height: 220px;
-    width: 100%;
-    margin: 10px;
-    background-color: rgba(0, 0, 0, 0.274);
+    background-color: #ffffff;
     border-radius: 25px;
     
+    /*
+    grid-template-columns: repeat(auto-fit, minmax(15rem, 1fr));
+    grid-gap: 1rem;
+    */
 }
-.box{
+.img2{
     display: flex;
-    width: 40%;
-    height: 220px;
     justify-content: center;
     align-items: center;
-    margin: 5px;
-}
-.box1{
-    display: flex;
-    width: 60%;
-    height: 220px;
-    justify-content: center;
-    align-items: center;
-    margin: 5px;
-}
-.box img{
-    height: 200px;
-    width: 200px;
     border-radius: 25px;
 }
-.box2{
+.img2 img{
+    height: 120px;
+    width: 120px;
+    border-radius: 25px;
+    margin-top: 10px;
+}
+
+.info{
+    display: block;
     justify-content: center;
+    align-items: center;
     text-align: center;
+    border-radius: 25px;
+    padding: 10px;
 }
-.box2 h3{
-    text-align: center;
+
+.info h3{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    border-radius: 25px;
+    padding-bottom: 5px;
 }
-.box2 p{
-    text-align: center;
-}
-.box2 a{
+.info a{
     margin: 2px;
     display: inline-block;
     padding: 13px 35px;
@@ -62,3 +86,5 @@
     text-transform: uppercase;
     border-radius: 25px;
 }
+
+/*RESPONSIVE*/
