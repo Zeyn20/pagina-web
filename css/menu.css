@@ -4,8 +4,6 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    text-decoration: none;
-    list-style: none;
 }
 
 body{
@@ -41,6 +39,7 @@ nav{
 .item a{
     text-decoration: none;
     color: white;
+    text-transform: uppercase;
 }
 /*navegacion derecha*/
 .nav-derecha{
@@ -63,23 +62,88 @@ nav{
 .item2 img{
     width: 15px;
     height: 15px;
+    display: none;
 }
 
-/*FOOTER*/
-.container-footer{
-    background-color:#ee4a00;
-    height: 100%;
-    width: 100%;
+#style-login{
+    padding: 5px;
+    background-color: #ffffff;
+    color: #ee4a00;
+    font-size: 15px;
+    border-radius: 25px;
 }
-.container-textf{
-    padding: 25px;
+/*FOOTER*/
+.contact{
+    background-color:#ee4a00;
+    height: auto;
+    width: 100%;
+    color: white;
+    text-decoration: none;
+}
+
+.footer{
+    padding: 10px 0;
+}
+
+.main{
+    width: 100%;
+    display: flex;
+    padding: 20px;
+    justify-content: center;
+    align-items: center;
+    flex-wrap: wrap;
     text-align: center;
 }
-.container-textf p{
+
+.col{
+    width: 250px;
+    display: flex;
+    margin: 5px;
+    justify-content: center;
+    align-items: center;
+}
+.col ul h4{
+    font-size: 1.2rem;
     color: white;
+    margin-bottom: 25px;
+    position: relative;
 }
 
+.col ul h4::before{
+    content:"";
+    position: absolute;
+    height: 2px;
+    width: 50px;
+    left: 0;
+    bottom: -8px;
+    background: white;
+}
 
+.col ul{
+    list-style: none;
+}
+.col ul li:not(last-child){
+    margin-bottom: 15px;
+}
+
+.col ul li a{
+    text-decoration: none;
+    color: #ffffff;
+    font-size: 1.1rem;
+    display: block;
+    text-transform: capitalize;
+    transition: .4s;
+}
+
+.copyright{
+    display: flex;
+    justify-content: center;
+    text-align: center;
+    margin: 25px;
+}
+.copyright p{
+    color: white;
+}
 /*RESPONSIVE BARRA DE NAVEGACION*/
 @media {
     

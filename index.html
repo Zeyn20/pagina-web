@@ -10,7 +10,7 @@
     <link rel="stylesheet" href="css/style.css">
     <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
     <title>RanTan' Food</title>
-    <link rel="shortcut icon" href="assets/icon-128x128.png">
+    <link rel="stylesheet" href="assets/icon-128x128.png">
 
 </head>
 <body>
@@ -20,73 +20,93 @@
         <section class="menu">
             <nav class="nav-bar">
                 <ul class="nav-izquierda">
-                    <li class="item"><a href="#" class="nav-izq">Rantan Food</a></li>
+                    <li class="item"><a href="#">Rantan Food</a></li>
                 </ul>
                 <ul class="nav-derecha">
-                    <li class="item2"><a href="index.html" class="nav-izq">Home</a></li>
-                    <li class="item2"><a href="productos.html" class="nav-izq">Productos</a></li>
-                    <li class="item2"><a href="servicios.html" class="nav-izq">Servicios</a></li>
+                    <li class="item2"><a href="index.html">Home</a></li>
+                    <li class="item2"><a href="productos.html">Productos</a></li>
+                    <li class="item2"><a href="servicios.html">Servicios</a></li>
+                    <li class="item2"><button class="btnLogin-popup">Login</button></li>
                     <li class="item2"><a href="#"><img src="imagenes/menu.png" alt="" id="menu-icon"></a></li>
                     
                 </ul>
             </nav>
         </section>
     </header>
-    <!--FIN DE EL encabezado-->
-    <div class="banner">
-        <div class="header-containerbn">
-            <div class="header-txt">
-                <h1>Tamales</h1>
-                <h2>100% Panameños</h2>
-                <a href="#" class="btn-1">Informacion</a>
-            </div>
+    <div class="wrapper">
+        <spam class="icon-close"><ion-icon name="close"></ion-icon>
+        </spam>
+
+        <div class="from-box login">
+            <h2>Login</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label for="#">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="#"><input type="checkbox">
+                    Remember me</label>
+                    <a href="#">Forgot Password</a>
+                </div>
+                <button type="submit" class="btn">Login
+                </button>
+                <div class="login-register">
+                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
+                </div>
+            </form>
+        </div>
+
+        <div class="from-box register">
+            <h2>Registration</h2>
+            <form action="#">
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="person"></ion-icon>
+                    </span>
+                    <input type="text" required>
+                    <label for="#">Username</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="mail"></ion-icon></ion-icon>
+                    </span>
+                    <input type="email" required>
+                    <label for="#">Email</label>
+                </div>
+                <div class="input-box">
+                    <span class="icon">
+                        <ion-icon name="lock-closed"></ion-icon>
+                    </span>
+                    <input type="password" required>
+                    <label for="#">Password</label>
+                </div>
+                <div class="remember-forgot">
+                    <label for="#"><input type="checkbox">
+                    agree to the terms & conditions</label>
+                </div>
+                <button type="submit" class="btn">Register
+                </button>
+                <div class="login-register">
+                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
+                </div>
+            </form>
         </div>
     </div>
 
-    <!--Este es el contenido-->
-    <section class="contenido">
-        <div class="content-titulo" >
-            <h3>Productos</h3>
-        </div>
-    
-        <div class="content-container">
-    
-            <div class="contenedor-producto">
-    
-                <div class="img2">
-                    <img src="imagenes/CoPanameñas/arroz-frito.jpg" id="producto1">
-                </div>
-        
-                <div class="info">
-    
-                    <h3>Arroz Frito</h3>
-                    <a href="productos.html" class="btnpedidos">Pedir</a>
-                </div>
-    
-            </div>
-    
-            <div class="contenedor-producto">
-    
-                <div class="img2">
-                    <img src="imagenes/CoPanameñas/Arroz-guandu.jpg" id="producto2">
-                </div>
-        
-                <div class="info">
-                    <h3>Arroz con Guandu</h3>
-                    <a href="productos.html" class="btnpedidos">Pedir</a>
-                </div>
-    
-            </div>
-    
-        </div>
-    </section>
-    
-    <!--Este es el pie de pagina-->
-    <footer class="container-footer">
-        <div class="container-textf">
-          <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
-        </div>
-    </footer>
+    <script src="script.js"></script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
     <script>
         if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {

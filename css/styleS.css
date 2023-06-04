@@ -2,11 +2,12 @@
 /*banner */
 .banner{
     display: flex;
-    background-color: rgb(55, 4, 102);
+    flex-wrap: wrap;
+    background-color: #f9813a;
     background-repeat: no-repeat;
     background-size: cover;
     background-position: center;
-    height: 250px;
+    height: auto;
     width: 100%;
 }
 /*AQUI TERMINA EL BANNER IMG*/
@@ -15,10 +16,11 @@
 /*AQUI EMPIEZA EL TEXTO DEL BANNER*/
 .contenedor-info{
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
     align-items: center;
     margin: 5px;
-    height: 220px;
+    height: auto;
     width: 100%;
     margin: 10px;
 }
@@ -28,15 +30,15 @@
     align-items: center;
     text-align: center;
     margin: 5px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 10px;
     border-right: 1px solid white;
 }
 
 img{
-    height: 150px;
-    width: 150px;
+    height: 90px;
+    width: 90px;
 }
 .box div p{
     color: white;
@@ -47,8 +49,8 @@ img{
     align-items: center;
     text-align: center;
     margin: 5px;
-    height: 200px;
-    width: 200px;
+    height: 150px;
+    width: 150px;
     margin: 10px;
 }
 
