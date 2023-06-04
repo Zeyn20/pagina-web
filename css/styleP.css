@@ -11,7 +11,7 @@ body {
     font-size: 16px;
     margin: 0;
     padding: 0;
-    height: 100vh;
+    height: auto;
 }
 /*contenido container titulo + productos*/
 .contenido{
@@ -98,13 +98,3 @@ body {
 }
 
 /*RESPONSIVE*/
-
-@media (max-width: 680px) {
-    #menu-icon{
-        display: none;
-    }
-
-    #menu-icon2{
-        display: block;
-    }
-}

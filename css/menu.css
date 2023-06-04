@@ -9,7 +9,7 @@
 nav{
     display: flex;
     justify-content: space-between;
-    height: 60px;
+    height: 3.75rem;
     width: 100%;
     margin: 0%;
     /*
@@ -23,10 +23,10 @@ nav{
 }
 .item{
     list-style:none;
-    margin-left:25px;
-    padding: 10px 0;
+    margin-left:1.5625rem;
+    padding: 0.625rem 0;
     float: left;
-    padding-top: 20px;  
+    padding-top: 1.25rem;  
 }
 .item a{
     text-decoration: none;
@@ -35,15 +35,15 @@ nav{
 }
 /*navegacion derecha*/
 .nav-derecha{
-    padding-right: 30px;
+    padding-right: 1.875rem;
     float: right;    
     display: flex;
     justify-content: center;
 }
 .item2{
     list-style:none;
-    margin-left:25px;
-    padding: 10px 0;
+    margin-left:1.5625rem;
+    padding: 0.625rem 0;
     float: right;
     padding-top: 20px;  
 }
@@ -70,17 +70,27 @@ nav{
 .item2 a:hover::after {
     transform: scale(1);
 }
-
 /*hamburguesa button*/
-.item2 img{
-    width: 15px;
-    height: 15px;
-    display: none;
+.nav-derecha2{
+    position: relative;
+    width: auto;
+    right: 1.5625rem;
+} 
+/*menu hamburguesa*/
+.item3{
+    list-style:none;
+    /* margin-left:1.5625rem; */
+    /* padding: 0.625rem 0; */
+    padding-top: 20px;  
 }
-
+.nav-derecha2 li a img{
+    width: 1.5rem;
+    height: 1rem;
+}
+/*----------------*/
 .item2 .btnLogin-popup {
-    width: 100px;
-    height: 30px;
+    width: 6.25rem;
+    height: 1.875rem;
     background: transparent;
     border: 0.125rem solid #fff;
     outline: none;
@@ -88,8 +98,8 @@ nav{
     cursor: pointer;
     color: #fff;
     font-weight: 500;
-    margin-left: -5px;
-    margin-top: -30px;
+    margin-left: -0.3125rem;
+    margin-top: -1.875rem;
     transition: .5s;
 }
 
@@ -106,6 +116,7 @@ nav{
     width: 100%;
     color: white;
     text-decoration: none;
+    border-bottom: 1px solid white;
 }
 
 .footer{
@@ -115,7 +126,7 @@ nav{
 .main{
     width: 100%;
     display: flex;
-    padding: 20px;
+    padding: 1.25rem;
     justify-content: center;
     align-items: center;
     flex-wrap: wrap;
@@ -123,7 +134,7 @@ nav{
 }
 
 .col{
-    width: 250px;
+    width: 15.625rem;
     display: flex;
     margin: 5px;
     justify-content: center;
@@ -132,7 +143,7 @@ nav{
 .col ul h4{
     font-size: 1.2rem;
     color: white;
-    margin-bottom: 25px;
+    margin-bottom: 1.5625rem;
     position: relative;
 }
 
@@ -140,7 +151,7 @@ nav{
     content:"";
     position: absolute;
     height: 2px;
-    width: 50px;
+    width: 3.125rem;
     left: 0;
     bottom: -8px;
     background: white;
@@ -150,7 +161,7 @@ nav{
     list-style: none;
 }
 .col ul li:not(last-child){
-    margin-bottom: 15px;
+    margin-bottom: 0.9375rem;
 }
 
 .col ul li a{
@@ -172,3 +183,35 @@ nav{
     color: white;
 }
 /*RESPONSIVE BARRA DE NAVEGACION*/
+
+@media (max-width: 680px) {
+    .nav-derecha2{
+        display: block;
+    }
+    /* .nav-derecha2 #menu-icon2{
+        display: block;
+    } */
+    .nav-derecha {
+        position: absolute;
+        flex-direction: column;
+        align-items: center;
+        top: -400px;
+        left: 0;
+        right: 0;
+        background-color: #000000e1;
+        border-bottom-right-radius: 25px;
+        border-bottom-left-radius: 25px;
+        
+    }
+    .nav-derecha li a{
+        color: white;
+    }
+
+    .nav-derecha.active{
+        top:70px;
+    }
+  }
+
+  @media (max-width: 1700px) {
+
+  }
