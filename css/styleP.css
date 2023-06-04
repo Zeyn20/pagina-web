@@ -1,11 +1,21 @@
-
 /**/
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
 
-
+body {
+    /*background-color: #ffc077;*/
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
 /*contenido container titulo + productos*/
 .contenido{
-    border-top: 2px solid rgb(187, 255, 0);
-    background: linear-gradient(to top, #ee4a00, rgb(255, 255, 255));
+    background-color: rgb(255, 255, 255);
 }
 .content-titulo{
     width: 100%;
@@ -88,3 +98,13 @@
 }
 
 /*RESPONSIVE*/
+
+@media (max-width: 680px) {
+    #menu-icon{
+        display: none;
+    }
+
+    #menu-icon2{
+        display: block;
+    }
+}

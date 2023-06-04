@@ -7,7 +7,7 @@ const assets = [
   "/css/style.css",
   "/css/menu.css",
   "/imagenes/menu.png",
-  "/imagenes/banner.jpg",
+  "/imagenes/banner.png",
   "/imagenes/CoPanameñas/arroz-frito.jpg",
   "/imagenes/CoPanameñas/Arroz-guandu.jpg",
   "/imagenes/pr1.png",

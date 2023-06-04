@@ -1,14 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
 
-*{
-    margin: 0;
-    padding: 0;
-    box-sizing: border-box;
-}
 
-body{
-    background-color: black;
-}
 .menu{
     display: flex;
     border-bottom: 1px solid white;
@@ -17,13 +9,13 @@ body{
 nav{
     display: flex;
     justify-content: space-between;
-    height: 50px;
+    height: 60px;
     width: 100%;
     margin: 0%;
     /*
     position: fixed;
     */
-    background-color: #ee4a00;
+    background: linear-gradient(to left, #ee4a00, #cea904);
 }
 /*navegacion izquierda*/
 .nav-izquierda{
@@ -58,23 +50,58 @@ nav{
 .item2 a{
     text-decoration: none;
     color: white;
+    position: relative;
 }
+
+.item2 a::after {
+    content: '';
+    position: absolute;
+    left: 0;
+    bottom: -0.375rem;
+    width: 100%;
+    height: 0.1875rem;
+    background: #fff;
+    border-radius: 5px;
+    transform-origin: right;
+    transform: scaleX(0);
+    transition: transform .5s;
+}
+
+.item2 a:hover::after {
+    transform: scale(1);
+}
+
+/*hamburguesa button*/
 .item2 img{
     width: 15px;
     height: 15px;
     display: none;
 }
 
-#style-login{
-    padding: 5px;
-    background-color: #ffffff;
-    color: #ee4a00;
-    font-size: 15px;
-    border-radius: 25px;
+.item2 .btnLogin-popup {
+    width: 100px;
+    height: 30px;
+    background: transparent;
+    border: 0.125rem solid #fff;
+    outline: none;
+    border-radius: 6px;
+    cursor: pointer;
+    color: #fff;
+    font-weight: 500;
+    margin-left: -5px;
+    margin-top: -30px;
+    transition: .5s;
 }
+
+.item2 .btnLogin-popup:hover {
+    background: #fff;
+    color: #162938;
+}
+
 /*FOOTER*/
 .contact{
-    background-color:#ee4a00;
+    /*background-color:#ee4a00;*/
+    background: linear-gradient(to left, #ee4a00, #cea904) no-repeat;
     height: auto;
     width: 100%;
     color: white;
@@ -145,6 +172,3 @@ nav{
     color: white;
 }
 /*RESPONSIVE BARRA DE NAVEGACION*/
-@media {
-    
-}

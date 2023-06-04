@@ -1,4 +1,19 @@
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /*background-color: #ffc077;*/
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: 100vh;
+}
+
 /*banner */
 .banner{
     display: flex;
@@ -71,4 +86,15 @@ img{
     font-size: 20px;
     letter-spacing: 5px;
     text-transform: uppercase;
+}
+
+/*RESPONSIVE*/
+@media (max-width: 680px) {
+    #menu-icon{
+        display: none;
+    }
+
+    #menu-icon2{
+        display: block;
+    }
 }

@@ -23,91 +23,73 @@
                     <li class="item"><a href="#">Rantan Food</a></li>
                 </ul>
                 <ul class="nav-derecha">
-                    <li class="item2"><a href="index.html">Home</a></li>
-                    <li class="item2"><a href="productos.html">Productos</a></li>
-                    <li class="item2"><a href="servicios.html">Servicios</a></li>
-                    <li class="item2"><button class="btnLogin-popup">Login</button></li>
-                    <li class="item2"><a href="#"><img src="imagenes/menu.png" alt="" id="menu-icon"></a></li>
-                    
+                    <li class="item2"><a href="index.html" id="menu-icon">Home</a></li>
+                    <li class="item2"><a href="productos.html" id="menu-icon">Productos</a></li>
+                    <li class="item2"><a href="servicios.html" id="menu-icon">Servicios</a></li>
+                    <li class="item2"><button class="btnLogin-popup" id="menu-icon">Login</button></li>
+                    <li class="item2"><a href="#"><img src="imagenes/menu.png" alt="" id="menu-icon2"></a></li>
                 </ul>
             </nav>
         </section>
     </header>
-    <div class="wrapper">
-        <spam class="icon-close"><ion-icon name="close"></ion-icon>
-        </spam>
 
-        <div class="from-box login">
-            <h2>Login</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label for="#">Email</label>
+    <section class="contenido">
+        <div class="contenido-box">
+            <div class="box-img">
+                <img src="imagenes/banner.png" alt="">
+            </div>
+    
+            <div class="box-text">
+                <span>Mira nuestro amplio menu!!!</span>
+                <button onclick="redireccionar()">Ver</button>
+                <script>
+                    function redireccionar() {
+                      window.location.href = "productos.html";
+                    }
+                </script>
+            </div>
+        </div>
+    </section>
+
+    <!--Este es el pie de pagina-->
+    <footer class="contact">
+        <div class="footer">
+            <div class="main">
+                <div class="col">
+                    <ul>
+                        <h4>Menu Links</h4>
+                        <li><a href="servicios.html">Servicios</a></li>
+                        <li><a href="productos.html">Productos</a></li>
+                        <li><a href="index.html">Home</a></li>
+                    </ul>
+
                 </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label for="#">Password</label>
+                <div class="col">
+                    <ul>
+                        <h4>Otros Servicios</h4>
+                        <li><a href="#">Sobre Nosotros</a></li>
+                        <li><a href="#">Politica de Privacidad</a></li>
+                        <li><a href="#">Terminos y condiciones</a></li>
+                    </ul>
+
                 </div>
-                <div class="remember-forgot">
-                    <label for="#"><input type="checkbox">
-                    Remember me</label>
-                    <a href="#">Forgot Password</a>
+                <div class="col">
+                    <ul>
+                        <h4>Contactos</h4>
+                        <li><a href="#">Instagram</a></li>
+                        <li><a href="#">Facebook</a></li>
+                        <li><a href="#">Whatsapp</a></li>
+                    </ul>
                 </div>
-                <button type="submit" class="btn">Login
-                </button>
-                <div class="login-register">
-                    <p>Don't have an account?<a href="#" class="register-link">Register</a></p>
-                </div>
-            </form>
+            </div>
+
+            <div class="copyright">
+                <p>©Copyright 2023 RanTan' Food. Todos los derechos reservados.</p>
+            </div>
         </div>
 
-        <div class="from-box register">
-            <h2>Registration</h2>
-            <form action="#">
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="person"></ion-icon>
-                    </span>
-                    <input type="text" required>
-                    <label for="#">Username</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="mail"></ion-icon></ion-icon>
-                    </span>
-                    <input type="email" required>
-                    <label for="#">Email</label>
-                </div>
-                <div class="input-box">
-                    <span class="icon">
-                        <ion-icon name="lock-closed"></ion-icon>
-                    </span>
-                    <input type="password" required>
-                    <label for="#">Password</label>
-                </div>
-                <div class="remember-forgot">
-                    <label for="#"><input type="checkbox">
-                    agree to the terms & conditions</label>
-                </div>
-                <button type="submit" class="btn">Register
-                </button>
-                <div class="login-register">
-                    <p>Already have an account?<a href="#" class="login-link">Login</a></p>
-                </div>
-            </form>
-        </div>
-    </div>
-
-    <script src="script.js"></script>
-    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
-    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>
-    <script>
+    </footer>
+    <!-- <script>
         if ("serviceWorker" in navigator) {
     window.addEventListener("load", function() {
       navigator.serviceWorker
@@ -116,6 +98,6 @@
         .catch(err => console.log("service worker not registered", err))
             })
         }
-    </script>
+    </script> -->
 </body>
 </html>

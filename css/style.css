@@ -1,181 +1,89 @@
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
 
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
 body {
-    justify-content: center;
-    background: url('../imagenes/ofert-2.jpg') no-repeat;
-    background-position: center;
-    background-size: cover;
+    /*background-color: #ffc077;*/
+    background: linear-gradient(to left, #ee4a00, #cea904) no-repeat;
     font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: auto;
 }
 
-.wrapper {
-    position: relative;
-    width: 25rem;
-    height: 25rem;
-    background: transparent;
-    border: 2px solid rgba(255, 255, 255, .5);
-    border-radius: 20px;
-    backdrop-filter: blur(20px);
-    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
-    display: flex;
+/*CONTENIDO PRINCIPAL*/
+
+.contenido{
+    display: block;
     justify-content: center;
-    align-items: center;
-    overflow: hidden;
-    transform: scale(0);
-    transition: transform .5s ease, height .2s ease;
 }
 
-.wrapper.active-popud {
-    transform: scale(1);
-}
-
-.wrapper.active {
-    height: 32.5rem;
-}
-
-.wrapper .from-box {
-    width: 100%;
-    padding: 2.5rem;
-}
-
-.wrapper .from-box.login {
-    transition: transform .18s ease;
-    transform: translateX(0);
-}
-
-.wrapper.active .from-box.login {
-    transition: none;
-    transform: translateX(-25rem);
-} 
-
-.wrapper .from-box.register{
-    position: absolute;
-    transform: translateX(25rem);
-}
-
-.wrapper.active .from-box.register {
-    transition: transform .18s ease;
-    transform: translateX(0);
-}
-
-.wrapper .icon-close {
-    position: absolute;
-    top: 0;
-    right: 0;
-    width: 2.8125rem;
-    height: 2.8125rem;
-    background: #162938;
-    font-size: 2em;
-    color: #fff;
+.contenido-box{
+    margin: 10px;
     display: flex;
+    flex-wrap: wrap;
     justify-content: center;
-    align-items: center;
-    border-bottom-left-radius: 1.25rem;
-    cursor: pointer;
-    z-index: 1;
-}
-
-.from-box h2 {
-    font-size: 2em;
-    color: #162938;
     text-align: center;
 }
 
-.input-box {
-    position: relative;
-    width: 100%;
-    height: 3.125rem;
-    border-bottom: 0.125rem solid #162938;
-    margin: 1.875rem 0;
+.box-img{
+    width: 800px;
+    height: 500px;
+    margin: 5px;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
-.input-box label {
-    position: absolute;
-    top: 50%;
-    left: 0.3125rem;
-    transform: translateY(-50%);
-    font-size: 1em;
-    color: #162938;
-    font-weight: 500;
-    pointer-events: none;
-    transition: .5s;
+.box-img img{
+    width: 80%;
+    height: 80%;
 }
 
-.input-box input:focus~label,
-.input-box input:valid~label {
-    top: -0.3125rem;
-}
-
-.input-box input {
-    width: 100%;
-    height: 100%;
-    background: transparent;
-    border: none;
-    outline: none;
-    font-size: 1em;
-    color: #162938;
-    font-weight: 600;
-    padding: 0 2.1875rem 0 0.3125rem;
-}
-
-.input-box .icon {
-    position: absolute;
-    right: 8px;
-    font-size: 1.2em;
-    color: #162938;
-    line-height: 3.5625rem;
-}
-
-.remember-forgot {
-    font-size: .9em;
-    color: #162938;
-    font-weight: 500;
-    margin: -0.9375rem 0 0.9375rem;
+.box-text{
+    width: 500px;
+    height: 500px;
     display: flex;
-    justify-content: space-between;
+    flex-direction: column;
+    align-items: center;
+    text-align: center;
+    /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
-.remember-forgot label input {
-    accent-color: #162938;
-    margin-right: 0.1875rem;
+.box-text span{
+    color: white;
+    text-transform: uppercase;
+    font-size: 250%;
 }
 
-.remember-forgot a {
-    color: #162938;
-    text-decoration: none;
-}
-
-.remember-forgot a:hover {
-    text-decoration: underline;
-}
-
-.btn {
-    width: 100%;
-    height: 2.8125rem;
-    background: #162938;
-    border: none;
+.box-text button{
+    width: 200px;
+    height: 60px;
+    background: transparent;
+    border: 0.125rem solid #fff;
     outline: none;
     border-radius: 6px;
     cursor: pointer;
-    font-size: 1em;
     color: #fff;
-    font-size: 500;
-}
-
-.login-register {
-    font-size: .9em;
-    color: #162938;
-    text-align: center;
     font-weight: 500;
-    margin: 1.5625rem 0 0.625rem;
+    transition: .5s;
+    font-size: 150%;
 }
 
-.login-register p a {
+.box-text button:hover{
+    background: #fff;
     color: #162938;
-    text-decoration: none;
-    font-weight: 600;
 }
 
-.login-register p a:hover {
-    text-decoration: underline;
+@media (max-width: 680px) {
+    #menu-icon{
+        display: none;
+    }
+
+    #menu-icon2{
+        display: block;
+    }
 }
