@@ -4,7 +4,7 @@
     margin: 0;
     padding: 0;
     box-sizing: border-box;
-    font-family: 'Poppins', sans-serif;
+    
 }
 
 body {
@@ -52,6 +52,7 @@ body {
     flex-direction: column;
     align-items: center;
     text-align: center;
+
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
@@ -59,6 +60,21 @@ body {
     color: white;
     text-transform: uppercase;
     font-size: 250%;
+}
+
+.box-text #desc{
+    display: block;
+    justify-content: center;
+    align-items: center;
+    height: 240px;
+    width: 480px;
+    margin: 10px;
+    padding: 1px;
+    box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
+    background-color: #fff;
+    color:black;
+    font-size: 18px;
+    border-radius: 25px;
 }
 
 .box-text button{

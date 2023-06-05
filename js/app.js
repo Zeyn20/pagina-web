@@ -43,13 +43,12 @@ function login(){
     user = document.getElementById("email").value;
     password = document.getElementById("pass").value;
 
-    if(user = "cliente@email.com" && password == 1234){
+    if(user == "cliente@email.com" && password == 1234){
         btnLogin.addEventListener('click', ()=> {
             wrappper.classList.remove('active-popud');
         });
-        
-
-    } else {
+    } 
+    else if(user !== "cliente@email.com" && password !== 1234){
         alert("Datos Incorrectos")
     }
 }

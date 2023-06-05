@@ -6,11 +6,13 @@ const assets = [
   "/servicios.html", 
   "/css/style.css",
   "/css/menu.css",
+  "/css/styleP.css",
+  "/css/styleS.css",
+  "/js/app.js",
   "/imagenes/menu.png",
   "/imagenes/banner.png",
   "/imagenes/CoPanameñas/arroz-frito.jpg",
   "/imagenes/CoPanameñas/Arroz-guandu.jpg",
-  "/imagenes/pr1.png",
   "/imagenes/icons/shopping-cart.svg"
 ];
 
