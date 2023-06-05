@@ -81,7 +81,8 @@ nav{
     list-style:none;
     /* margin-left:1.5625rem; */
     /* padding: 0.625rem 0; */
-    padding-top: 20px;  
+    padding-top: 1.25rem; 
+    transform: scale(0); 
 }
 .nav-derecha2 li a img{
     width: 1.5rem;
@@ -164,6 +165,10 @@ nav{
     margin-bottom: 0.9375rem;
 }
 
+.col #social li:not(last-child){
+    margin-bottom: -0.5625rem;
+}
+
 .col ul li a{
     text-decoration: none;
     color: #ffffff;
@@ -171,6 +176,12 @@ nav{
     display: block;
     text-transform: capitalize;
     transition: .4s;
+}
+
+.col ul li .iconf {
+    position: relative;
+    left: 4rem;
+    bottom: 1.45rem;
 }
 
 .copyright{
@@ -195,20 +206,25 @@ nav{
         position: absolute;
         flex-direction: column;
         align-items: center;
-        top: -400px;
+        top: -25rem;
         left: 0;
         right: 0;
         background-color: #000000e1;
-        border-bottom-right-radius: 25px;
-        border-bottom-left-radius: 25px;
-        
+        border-bottom-right-radius: 1.5625rem;
+        border-bottom-left-radius: 1.5625rem;
+        transition: .4s;
     }
     .nav-derecha li a{
         color: white;
     }
 
+    .item3 {
+        transform: scale(1);
+    }
+
     .nav-derecha.active{
-        top:70px;
+        top:0px;
+        transition: .4s;
     }
   }
 

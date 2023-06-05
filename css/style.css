@@ -82,7 +82,8 @@ body {
 
 .wrapper {
     position: relative;
-    width: 25rem;
+    top: .5rem;
+    width: 21rem;
     height: 25rem;
     left: 37rem;
     background: transparent;
@@ -172,7 +173,7 @@ body {
     left: 0.3125rem;
     transform: translateY(-50%);
     font-size: 1em;
-    color: #868686;
+    color: #d7d6d3;
     font-weight: 500;
     pointer-events: none;
     transition: .5s;
@@ -199,13 +200,13 @@ body {
     position: absolute;
     right: 8px;
     font-size: 1.2em;
-    color: #162938;
+    color: #d3d3d3;
     line-height: 3.5625rem;
 }
 
 .remember-forgot {
     font-size: .9em;
-    color: #162938;
+    color: #020202;
     font-weight: 500;
     margin: -0.9375rem 0 0.9375rem;
     display: flex;
@@ -213,12 +214,12 @@ body {
 }
 
 .remember-forgot label input {
-    accent-color: #162938;
+    accent-color: #000000;
     margin-right: 0.1875rem;
 }
 
 .remember-forgot a {
-    color: #162938;
+    color: #010101;
     text-decoration: none;
 }
 
@@ -255,4 +256,15 @@ body {
 
 .login-register p a:hover {
     text-decoration: underline;
+}
+
+@media screen and (max-width: 680px) {
+    .wrapper {
+        width: 100%;
+        left: 0;
+    }
+    
+    .wrapper.active-popud {
+        left: 0;
+    }
 }

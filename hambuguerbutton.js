@@ -9,6 +9,7 @@ window.onscroll = () => {
     navbar.classList.remove("active");
 };
 
+
 const btnLogin = document.querySelector('.btn')
 const wrappper = document.querySelector('.wrapper');
 const loginLink = document.querySelector('.login-link');
@@ -32,6 +33,9 @@ iconClose.addEventListener('click', ()=> {
     wrappper.classList.remove('active-popud');
 });
 
+btnPopup.addEventListener('click', ()=> {
+    navbar.classList.remove('active');
+});
 
 function login(){
     var user, password
