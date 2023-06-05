@@ -10,6 +10,8 @@ const assets = [
   "/css/styleP.css",
   "/css/styleS.css",
   "/js/app.js",
+  "/assets/icon-192x192.png",
+  "/assets/icon-128x128.png",
   "/imagenes/menu.png",
   "/imagenes/banner.png",
   "/imagenes/icons/shopping-cart.svg",
