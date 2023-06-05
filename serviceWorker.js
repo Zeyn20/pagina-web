@@ -11,6 +11,13 @@ const assets = [
   "/js/app.js",
   "/imagenes/menu.png",
   "/imagenes/banner.png",
+  "/imagenes/camareros.jpg",
+  "/imagenes/comprasx128.png",
+  "/imagenes/consultax128.png",
+  "/imagenes/domicilio.png",
+  "/imagenes/hombre.png",
+  "/imagenes/mujer.png",
+  "/imagenes/hamburguesa.jpg",
   "/imagenes/CoPanameñas/arroz-frito.jpg",
   "/imagenes/CoPanameñas/Arroz-guandu.jpg",
   "/imagenes/icons/shopping-cart.svg"

@@ -74,6 +74,7 @@ nav{
 .nav-derecha2{
     position: relative;
     width: auto;
+    margin-left: auto;
     right: 1.5625rem;
 } 
 /*menu hamburguesa*/
@@ -198,8 +199,9 @@ nav{
 @media (max-width: 680px) {
     .nav-derecha2{
         display: block;
+         
     }
-    /* .nav-derecha2 #menu-icon2{
+    /* .nav-derecha2 .item3 #menu-icon2{
         display: block;
     } */
     .nav-derecha {
@@ -222,6 +224,7 @@ nav{
         transform: scale(1);
     }
 
+
     .nav-derecha.active{
         top:0px;
         transition: .4s;
@@ -229,5 +232,4 @@ nav{
   }
 
   @media (max-width: 1700px) {
-
   }
