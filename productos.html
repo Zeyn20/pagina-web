@@ -49,7 +49,7 @@
         
                 <div class="info">
     
-                    <h3>Arroz Frito</h3>
+                    <h3>Tacos</h3>
                     <a href="productos.html" class="btnpedidos">Pedir</a>
                 </div>
     
@@ -62,7 +62,7 @@
                 </div>
         
                 <div class="info">
-                    <h3>Arroz con Guandu</h3>
+                    <h3>Hot Dog</h3>
                     <a href="productos.html" class="btnpedidos">Pedir</a>
                 </div>
     
@@ -75,7 +75,7 @@
                 </div>
         
                 <div class="info">
-                    <h3>Arroz con Guandu</h3>
+                    <h3>hamburguesa</h3>
                     <a href="productos.html" class="btnpedidos">Pedir</a>
                 </div>
     
@@ -135,6 +135,16 @@
         </div>
 
     </footer>
+    <script>
+        if ("serviceWorker" in navigator) {
+    window.addEventListener("load", function() {
+      navigator.serviceWorker
+        .register("serviceWorker.js")
+        .then(res => console.log("service worker registered"))
+        .catch(err => console.log("service worker not registered", err))
+            })
+        }
+    </script>
     <script src="js/app.js"></script>
     <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
 <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script>

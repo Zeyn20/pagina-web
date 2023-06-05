@@ -199,7 +199,7 @@ nav{
 @media (max-width: 680px) {
     .nav-derecha2{
         display: block;
-         
+        z-index: 1; 
     }
     /* .nav-derecha2 .item3 #menu-icon2{
         display: block;

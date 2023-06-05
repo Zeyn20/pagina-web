@@ -4,6 +4,7 @@ const assets = [
   "/index.html",
   "/productos.html",
   "/servicios.html", 
+  "/manifest.json",
   "/css/style.css",
   "/css/menu.css",
   "/css/styleP.css",
@@ -11,16 +12,16 @@ const assets = [
   "/js/app.js",
   "/imagenes/menu.png",
   "/imagenes/banner.png",
-  "/imagenes/camareros.jpg",
+  "/imagenes/icons/shopping-cart.svg",
+  "/imagenes/CoPanameñas/arroz-frito.jpg",
+  "/imagenes/CoPanameñas/hamburguesa.jpg",
+  "/imagenes/CoPanameñas/Arroz-guandu.jpg",
+  "/imagenes/camareros.png",
   "/imagenes/comprasx128.png",
   "/imagenes/consultax128.png",
   "/imagenes/domicilio.png",
   "/imagenes/hombre.png",
-  "/imagenes/mujer.png",
-  "/imagenes/hamburguesa.jpg",
-  "/imagenes/CoPanameñas/arroz-frito.jpg",
-  "/imagenes/CoPanameñas/Arroz-guandu.jpg",
-  "/imagenes/icons/shopping-cart.svg"
+  "/imagenes/mujer.png"
 ];
 
 self.addEventListener("install", installEvent => {
