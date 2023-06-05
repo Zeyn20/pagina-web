@@ -47,8 +47,7 @@ function login(){
         btnLogin.addEventListener('click', ()=> {
             wrappper.classList.remove('active-popud');
         });
-    } 
-    else if(user !== "cliente@email.com" && password !== 1234){
-        alert("Datos Incorrectos")
+    }else{
+        alert("datos incorrectos")
     }
-}
+} 

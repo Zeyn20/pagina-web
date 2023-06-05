@@ -166,7 +166,7 @@ nav{
 }
 
 .col #social li:not(last-child){
-    margin-bottom: -0.5625rem;
+    margin-bottom: -4px;
 }
 
 .col ul li a{
@@ -181,7 +181,7 @@ nav{
 .col ul li .iconf {
     position: relative;
     left: 4rem;
-    bottom: 1.45rem;
+    bottom: 1.01rem;
 }
 
 .copyright{

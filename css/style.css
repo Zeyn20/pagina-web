@@ -41,8 +41,8 @@ body {
 }
 
 .box-img img{
-    width: 80%;
-    height: 80%;
+    width: 40em;
+    height: 30em;
 }
 
 .box-text{
@@ -59,6 +59,7 @@ body {
 .box-text span{
     color: white;
     text-transform: uppercase;
+    font-family: 'Lobster', cursive;
     font-size: 250%;
 }
 
@@ -66,15 +67,19 @@ body {
     display: block;
     justify-content: center;
     align-items: center;
-    height: 240px;
-    width: 480px;
-    margin: 10px;
-    padding: 1px;
+    height: 17.8125rem;
+    width: 30rem;
+    margin: 0.625rem;
+    padding-top: .9em;
+    padding-left: .9em;
+    padding-right: .9em;
     box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23);
     background-color: #fff;
     color:black;
-    font-size: 18px;
+    font-size: 1.125rem;
     border-radius: 25px;
+    text-align: justify;
+    font-family: 'Acme', sans-serif;
 }
 
 .box-text button{
@@ -282,5 +287,17 @@ body {
     
     .wrapper.active-popud {
         left: 0;
+    }
+
+    .box-text #desc {
+        position: relative;
+        width: 100%; 
+        margin: 0.625rem 0;
+        height: 50em;
+    }
+    
+    .box-img img{
+        height: 75%;
+        width: 100%;
     }
 }
