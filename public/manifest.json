@@ -1,7 +1,7 @@
 {
     "name" : "RanTan' Food",
     "short_name": "RanTanFood",
-    "start_url": "/index.html",
+    "start_url": "/public/index.html",
     "scope": "/",
     "display": "standalone",
     "background_color": "#fdfdfd",
