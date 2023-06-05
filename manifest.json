@@ -41,14 +41,14 @@
         "short_name": "productos",
         "description": "Entra a nuestros productos",
         "url": "/productos.html",
-        "icons": [{ "src": "/assets/icon-192x192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/assets/carrito-icon-192x192.png", "sizes": "192x192" }]
       },
       {
         "name": "Servicios",
         "short_name": "Servicios",
         "description": "Servicios",
         "url": "/servicios.html",
-        "icons": [{ "src": "/assets/icon-192x192.png", "sizes": "192x192" }]
+        "icons": [{ "src": "/assets/servicio2-icon-192x192.png", "sizes": "192x192" }]
       }
     ]
 }
