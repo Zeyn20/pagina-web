@@ -35,22 +35,32 @@ nav{
 
 }/*hamburguesa button*/
 .nav-derecha2{
+    list-style-type: none;
+    display: inline-block;
     position: relative;
     width: auto;
     margin-left: auto;
-    right: 1.5625rem;
+    right: 1rem;
 } 
 /*menu hamburguesa*/
 .item3{
+    margin-left: 10px;
+    display: inline-block;
     list-style:none;
     /* margin-left:1.5625rem; */
     /* padding: 0.625rem 0; */
-    padding-top: 1.25rem; 
+    padding-top: 1rem; 
     transform: scale(0); 
 }
 .nav-derecha2 li a img{
-    width: 1.5rem;
-    height: 1rem;
+    width: 1.4rem;
+    height: 1.8rem;
+}
+
+.nav-derecha2 li span img{
+    width: 2rem;
+    height: 2rem;
+    border-radius: 50px;
 }
 
 /*navegacion derecha*/
@@ -124,27 +134,45 @@ nav{
 
 /*NO TOCAR*/
 .menu-vertical{
-    right: 0;
-    top: 10%;
-    transform: translate(-50%, 20%);
+    top: auto;
+    right: 0%;
+    transform: translate(-11%, 36%);
     position: absolute;
-    flex-direction: column;
     /* display: none; */
-    list-style: none;
-    width: auto;
+    text-decoration: none;
+    text-align: right;
+    width: 200px;
     height: auto;
-    background-color: #162938;
+    border-radius: 15px;
+    backdrop-filter: blur(20px);
+    /* transform: scale(0); */
+    background-color: rgba(255, 255, 255, 0.5);
+    box-shadow: 0 0 30px rgba(0, 0, 0, .5);
+    border: 2px solid rgba(248, 240, 240, 0.5);
+    padding: 15px;
 }
+.vertical-c {
+    display: flex;
+    flex-direction: column;
+}
+.vertical-c a{
+    border-bottom: 1px solid rgba(0, 0, 0, 0.644);
+    text-decoration: none;
+    color: black;
+    margin-top: 10px;
+    margin-bottom: 10px;
+}
+
+/* .menu-vertica.active{
+    transform: scale(1);
+} */
 
 .menu-vertical img{
     margin-top: -0.3rem;
     height: 2rem;
     height: 2rem;
     border-radius: 50px;
-}
-
-.item2:hover .menu-vertical{
-    display: block;
+    cursor: pointer;
 }
 
 .i-vertical{
