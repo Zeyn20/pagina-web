@@ -3,6 +3,7 @@ let navbar = document.querySelector(".nav-derecha");
 
 menu.addEventListener("click",function(){
     navbar.classList.toggle("active");
+    wrappper.classList.remove('active-popud');
 });
 
 window.onscroll = () => {
