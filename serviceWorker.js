@@ -1,5 +1,5 @@
-const STATIC_CACHE = "static-v1";
-
+// const STATIC_CACHE = "static-v1";
+const STATIC_CACHE = "Rantan-Food-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
@@ -31,6 +31,17 @@ self.addEventListener("install", (e) => {
     .then((cache) => cache.addAll(APP_SHELL));
 
   e.waitUntil(cacheStatic);
+});
+
+self.addEventListener("activate", activateEvent => {
+  activateEvent.waitUntil(
+    caches.keys().then(cacheNames => {
+      return Promise.all(
+        cacheNames.filter(cacheName => cacheName !== STATIC_CACHE)
+                  .map(cacheName => caches.delete(cacheName))
+      );
+    })
+  );
 });
 
 self.addEventListener("fetch", (e) => {
