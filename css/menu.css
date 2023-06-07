@@ -138,7 +138,7 @@ nav{
     right: 0%;
     transform: translate(-11%, 36%);
     position: absolute;
-    /* display: none; */
+    display: none;
     text-decoration: none;
     text-align: right;
     width: 200px;
