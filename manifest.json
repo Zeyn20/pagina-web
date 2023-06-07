@@ -1,12 +1,13 @@
 {
     "name" : "RanTan' Food",
     "short_name": "RanTanFood",
-    "start_url": "/pagina-web/index.html",
+    "start_url": "/pagina-web/",
     "scope": "/",
     "display": "standalone",
     "background_color": "#fdfdfd",
     "theme_color": "#db4938",
     "orientation": "portrait-primary",
+    "installMode":"prefetch",
     "purpose": "maskable",
     "icons": [
       {
