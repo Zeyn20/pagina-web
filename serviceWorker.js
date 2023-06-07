@@ -3,8 +3,26 @@ const STATIC_CACHE = "static-v1";
 const APP_SHELL = [
   "/",
   "/index.html",
+  "/servicios.html",
+  "/productos.html",
+  "/css/menu.css",
+  "/css/style.css",
+  "/css/styleP.css",
+  "/css/styleS.css",
   "/js/main.js",
-  "/imagenes/banner.png"
+  "/js/app.js",
+  "/imagenes/banner.png",
+  "/imagenes/camareros.png",
+  "/imagenes/comprasx128.png",
+  "/imagenes/consultax128.png",
+  "/imagenes/domicilio.png",
+  "/imagenes/hombre.png",
+  "/imagenes/menu.png",
+  "/imagenes/mujer.png",
+  "/imagenes/icons/shopping-cart.svg",
+  "/imagenes/CoPanamenas/arroz-frito.jpg",
+  "/imagenes/CoPanamenas/Arroz-guandu.jpg",
+  "/imagenes/CoPanamenas/hamburguesa.jpg",
 ];
 
 self.addEventListener("install", (e) => {
