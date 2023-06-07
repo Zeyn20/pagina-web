@@ -5,7 +5,7 @@ const APP_SHELL = [
   "/index.html",
   // "/servicios.html",
   // "/productos.html",
-  "/css/menu.css",
+  // "/css/menu.css",
   // "/css/style.css",
   // "/css/styleP.css",
   // "/css/styleS.css",
