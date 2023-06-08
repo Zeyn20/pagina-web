@@ -1,26 +1,26 @@
 const staticRantanFood = "Rantan-Food-v1";
 const assets = [
-  "/",
-  "/index.html",
-  "/productos.html",
-  "/servicios.html"
-  "/css/style.css",
-  "/css/menu.css",
-  "/css/styleP.css",
-  "/css/styleS.css",
-  "/js/app.js",
-  "/imagenes/menu.png",
-  "/imagenes/banner.png",
-  "/imagenes/icons/shopping-cart.svg",
-  "/imagenes/CoPanameñas/arroz-frito.jpg",
-  "/imagenes/CoPanameñas/hamburguesa.jpg",
-  "/imagenes/CoPanameñas/Arroz-guandu.jpg",
-  "/imagenes/camareros.png",
-  "/imagenes/comprasx128.png",
-  "/imagenes/consultax128.png",
-  "/imagenes/domicilio.png",
-  "/imagenes/hombre.png",
-  "/imagenes/mujer.png"
+//   "/",
+//   "/index.html",
+//   "/productos.html",
+//   "/servicios.html"
+//   "/css/style.css",
+//   "/css/menu.css",
+//   "/css/styleP.css",
+//   "/css/styleS.css",
+//   "/js/app.js",
+//   "/imagenes/menu.png",
+//   "/imagenes/banner.png",
+//   "/imagenes/icons/shopping-cart.svg",
+//   "/imagenes/CoPanameñas/arroz-frito.jpg",
+//   "/imagenes/CoPanameñas/hamburguesa.jpg",
+//   "/imagenes/CoPanameñas/Arroz-guandu.jpg",
+//   "/imagenes/camareros.png",
+//   "/imagenes/comprasx128.png",
+//   "/imagenes/consultax128.png",
+//   "/imagenes/domicilio.png",
+//   "/imagenes/hombre.png",
+//   "/imagenes/mujer.png"
 ];
 
 self.addEventListener("install", installEvent => {
