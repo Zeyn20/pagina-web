@@ -3,7 +3,7 @@ const assets = [
   "/",
   "/index.html",
   "/productos.html",
-  "/servicios.html"
+  "/servicios.html",
   "/css/menu.css",
   "/css/style.css",
   "/css/styleP.css",
