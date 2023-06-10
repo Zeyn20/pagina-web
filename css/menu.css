@@ -15,7 +15,7 @@ nav{
     /*
     position: fixed;
     */
-    background: linear-gradient(to left, #ee4a00, #cea904);
+    background: linear-gradient(to left, #08266f, #0f3e8d) no-repeat;
 }
 /*navegacion izquierda*/
 .nav-izquierda{
@@ -184,7 +184,7 @@ nav{
 /*FOOTER*/
 .contact{
     /*background-color:#ee4a00;*/
-    background: linear-gradient(to left, #ee4a00, #cea904) no-repeat;
+    background: linear-gradient(to left, #08266f, #0f3e8d) no-repeat;
     height: auto;
     width: 100%;
     color: white;

@@ -26,7 +26,7 @@ const assets = [
   "/imagenes/hombre.png",
   "/imagenes/menu.png",
   "/imagenes/mujer.png",
-  "/js/app.js"
+  "/js/app.jss"
 ];
 
 self.addEventListener("install", installEvent => {

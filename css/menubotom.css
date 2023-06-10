@@ -1,5 +1,6 @@
 :root{
     --clr:#222327; 
+    --clrceleste:#6091d8;
 }
 .div-navb{
     display: none;
@@ -18,7 +19,7 @@
     width: 100%;
     height: 70px;
     background: white;
-    border-top: 1px solid #cea904;
+    border-top: 1px solid #08266f;
     display: flex;
     justify-content: center;
     align-items: center;
@@ -85,10 +86,11 @@
     top:-50%;
     width: 64px;
     height: 64px;
-    background:yellow;
+    background:#a3d1ff;
     border-radius: 50%;
-    border: 3px solid var(--clr);
+    border: 3px solid var(--clrceleste);
     transition: 0.5s;
+    #6091d8
 }
 
  /* .indicator::before{

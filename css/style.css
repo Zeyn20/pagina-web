@@ -1,3 +1,4 @@
+
 @import url('https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Poppins:wght@400;500;600;700;800&display=swap');
 
 *{
@@ -9,7 +10,8 @@
 
 body {
     /*background-color: #ffc077;*/
-    background: linear-gradient(to left, #ee4a00, #cea904) no-repeat;
+    background: linear-gradient(to left, #fff, #fff) no-repeat;
+    /* background: linear-gradient(to left, #ee4a00, #cea904) no-repeat; */
     font-size: 16px;
     margin: 0;
     padding: 0;
@@ -61,7 +63,7 @@ body {
 }
 
 .box-text span{
-    color: white;
+    color: rgb(0, 0, 0);
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
     font-size: 30px;
@@ -72,7 +74,7 @@ body {
 .box-text button{
     width: 50%;
     height: 60px;
-    background: rgb(237, 31, 31);
+    background: #1358ab;
     border: 0.125rem solid #fff;
     outline: none;
     border-radius: 6px;
@@ -84,7 +86,7 @@ body {
 }
 
 .box-text button:hover{
-    background: #fff;
+    background: #82b1eb;
     color: #162938;
 }
 
