@@ -8,6 +8,7 @@
     <link rel="stylesheet" href="css/menu.css">
     <!--stylo de menu-->
     <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="css/menubotom.css">
     <!--Timport de font-->
    
     <link rel="manifest" href="manifest.json" crossorigin="use-credentials">
@@ -215,5 +216,63 @@
             })
         }
     </script>
+    <!--NAVEGACION RESPONSIVE-->
+    <div class="div-navb">
+        <nav class="navegacion-botom">
+            <ul>
+                <li class="lista active">
+                    <a href="index.html">
+                        <span class="icon"><ion-icon name="home-outline"></ion-icon></span>
+                        <span class="itext">Home</span>
+                    </a>
+                </li>
+    
+                <li class="lista">
+                    <a href="productos.html">
+                        <span class="icon"><ion-icon name="bag-outline"></ion-icon></span>
+                        <span class="itext">Productos</span>
+                    </a>
+                </li>
+    
+                <li class="lista">
+                    <a href="anadir.html" onclick="anadir()">
+                        <span class="icon"><ion-icon name="add-circle-outline"></ion-icon></span>
+                        <span class="itext">Añadir</span>
+                    </a>
+                </li>
+    
+                <li class="lista">
+                    <a href="servicios.html">
+                        <span class="icon"><ion-icon name="information-circle-outline"></ion-icon></ion-icon></span>
+                        <span class="itext">Servicios</span>
+                    </a>
+                </li>
+    
+                <li class="lista">
+                    <a href="perfil.html" >
+                        <span class="icon"><ion-icon name="person-outline"></ion-icon></span>
+                        <span class="itext">Perfil</span>
+                    </a>
+                </li>
+                <div class="indicator"></div>
+            </ul>
+    
+        </nav>    
+
+    </div> 
+    <script>
+        const lista = document.querySelectorAll('.lista');
+        function activeLink(){
+            lista.forEach((item)=>
+            item.classList.remove('active'));
+            this.classList.add('active');
+        }
+        lista.forEach((item)=>
+        item.addEventListener('click',activeLink));
+    </script>
+    <script type="module" src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.esm.js"></script>
+    <script nomodule src="https://unpkg.com/ionicons@7.1.0/dist/ionicons/ionicons.js"></script> 
+    <!-- FIN NAVEGACION RESPONSIVE-->
+
 </body>
 </html>

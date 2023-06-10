@@ -27,30 +27,31 @@ body {
 
 .contenido-box{
     margin: 10px;
-    padding-bottom: 50px;
+    padding-bottom: 10%;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
     text-align: center;
     border-bottom: 1px solid white;
+
 }
 
 .box-img{
-    width: 750px;
-    height: 500px;
+    width: 90%px;
+    height: 100%px;
     margin: 5px;
     /* box-shadow: 0 10px 20px rgba(0, 0, 0, 0.19), 0 6px 6px rgba(0, 0, 0, 0.23); */
 }
 
 .box-img img{
-    width: 40em;
-    height: 30em;
+    width: auto;
+    height: auto;
 }
 
 .box-text{
-    padding-top: 140px;
-    width: 500px;
-    height: 500px;
+    padding-top: 10%;
+    width: 400px;
+    height: 100%;
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -63,12 +64,13 @@ body {
     color: white;
     text-transform: uppercase;
     font-family: "Poppins", sans-serif;
-    font-size: 250%;
+    font-size: 30px;
+    width: 100%;
 }
 
 
 .box-text button{
-    width: 200px;
+    width: 50%;
     height: 60px;
     background: rgb(237, 31, 31);
     border: 0.125rem solid #fff;
@@ -273,7 +275,7 @@ body {
 }
 /*AQUI COMIENZA EL LOGIN--------------------------------------------------*/
 
-@media screen and (max-width: 680px) {
+@media screen and (max-width: 768px) {
 
     .box-text #desc {
         position: relative;
@@ -283,8 +285,19 @@ body {
     }
     
     .box-img img{
-        height: 75%;
-        width: 100%;
+        height: 100%;
+        width: 70%;
+    }
+
+    .box-text{
+
+        width: 400px;
+        height: 100%;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        text-align: center;
+
     }
 }
 

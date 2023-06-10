@@ -1,0 +1,41 @@
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+    font-family: 'Poppins', sans-serif;
+}
+
+body {
+    /*background-color: #ffc077;*/
+    font-size: 16px;
+    margin: 0;
+    padding: 0;
+    height: auto;
+}
+
+.container-anadir{
+    height: 700px;
+    display: flex;
+    flex-direction: column;
+    padding: 50px;
+    justify-content: center;
+    align-items: center;
+}
+
+.caja{
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    text-align: center;
+}
+
+.caja .cosa2{
+    height: 100px;
+    margin: 20px;
+}
+.img22{
+    height: 100%;
+    width: 100%;
+}
