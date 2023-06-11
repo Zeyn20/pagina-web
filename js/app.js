@@ -1,15 +1,3 @@
-// let menu = document.querySelector("#menu-icon2");
-// let navbar = document.querySelector(".nav-derecha");
-
-// menu.addEventListener("click",function(){
-//     navbar.classList.toggle("active");
-//     wrappper.classList.remove('active-popud');
-// });
-
-window.onscroll = () => {
-    navbar.classList.remove("active");
-};
-
 
 const btnLogin = document.querySelector('.btn')
 const wrappper = document.querySelector('.wrapper');
@@ -34,9 +22,6 @@ iconClose.addEventListener('click', ()=> {
     wrappper.classList.remove('active-popud');
 });
 
-btnPopup.addEventListener('click', ()=> {
-    navbar.classList.remove('active');
-});
 
 function login(){
     var user, password
@@ -52,8 +37,3 @@ function login(){
         alert("datos incorrectos")
     }
 } 
-
-//TROLLING LINE
-function anadir(){
-    // alert("Enserio creiste que programaria esto?");
-}
