@@ -1,4 +1,4 @@
-const staticRantanFood = "Rantan-Food-v1";
+const staticRantanFood = "Rantan-Food-v1.2";
 const assets = [
   "/",
   "/index.html",
@@ -26,7 +26,7 @@ const assets = [
   "/imagenes/hombre.png",
   "/imagenes/menu.png",
   "/imagenes/mujer.png",
-  "/js/app.jss"
+  "/js/app.js"
 ];
 
 self.addEventListener("install", installEvent => {

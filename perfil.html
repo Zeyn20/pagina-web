@@ -38,25 +38,56 @@
     </header>
     <!--FIN DE EL encabezado-->
 
-    <section class="contenido-general">
-        <section class="container-perfil" >
+    <div class="contenido-general">
+        <div class="container-perfil" >
             <div class="caja">
-                <!-- <div class="cosa1">
-                    <icon><ion-icon name="warning-outline"></ion-icon></icon>
-                </div> -->
+                <!-- FOTO Y ICONO -->
                 <div class="cosa2">
                     <img src="imagenes/hombre.png" alt="" class="img22">
                 </div>
-            </div>        
-        </section>
-        <section class="container-info">
-            <div class="caja-info">
-                <div class="cosa2">
-                    <h4>Nombre</h4>
-                    <h4>Nombre@rantanfood.com</h4>
+                <div class="camara">
+                    <icon id="cam1"><ion-icon name="camera-outline"></ion-icon></icon>
                 </div>
             </div>
+            <!-- NOMBRE Y CORREO -->
+            <div class="caja2">
+                <div class="cosa2">
+                    <h1 id="nombre">Rantan Food<icon id="editar"><ion-icon name="create-outline"></ion-icon></icon></h1>
+                    <p id="correo">Nombre@rantanfood.com</p>
+                </div>
+            </div>        
+        </div>
+        <section class="container-info">
+            
+            <div class="box-info">
+                    <div class="bordecito">
+                        <a href="#"><icon><ion-icon name="key-outline"></ion-icon></icon>Informacion Personal</a>
+                    </div>    
+                <h2>Soporte</h2>
+                <div class="bordecito">
+                    <a href="#"><icon><ion-icon name="information-circle-outline"></ion-icon></icon>Terminos y condiciones</a>
+                </div>
+
+                <div class="bordecito">
+                    <a href="#"><icon><ion-icon name="document-text-outline"></ion-icon></icon>Politicas de Privacidad</a>
+                </div>
+
+                <div class="bordecito">
+                    <a href="#"><icon><ion-icon name="exit-outline"></ion-icon></icon>Cerrar Session</a>
+                </div>
+
+            </div>
+
         </section>
+    </section>
+
+    <section>
+        <div style="text-align: center;">
+            <h5 style="  background: linear-gradient(to right, #ff9900, #ff0055);
+            -webkit-background-clip: text;
+            -webkit-text-fill-color: transparent;  
+            background-clip: text;">RanTan Food V.1.2</h5>
+        </div>
     </section>
     <!--FIN CONTENIDO DEL PERFIL-->
     <script src="js/app.js"></script>
